@@ -42,14 +42,9 @@ export class TasksComponent {
 
   onStartAddTask() {
     this.isAddingTask = true;
-    console.log('onNewTask');
   }
 
-  onCancelAddTask() {
-    this.isAddingTask = false;
-  }
-
-  onAddTask(taskData: NewTaskData) {
+  onCloseAddTask() {
     this.isAddingTask = false;
   }
 }
