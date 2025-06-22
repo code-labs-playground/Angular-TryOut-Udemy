@@ -7,6 +7,7 @@ export interface Task {
 }
 
 export interface NewTaskData {
+  [x: string]: string;
   title: string;
   summary: string;
   date: string;
